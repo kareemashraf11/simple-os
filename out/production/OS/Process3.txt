@@ -1,0 +1,19 @@
+3
+BLOCKED
+4
+26
+39
+null
+null
+null
+semWait userInput
+input
+assign a
+semSignal userInput
+semWait file
+readFile a
+assign b
+semSignal file
+semWait userOutput
+print b
+semSignal userOutput

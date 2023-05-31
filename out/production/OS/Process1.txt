@@ -1,0 +1,18 @@
+1
+READY
+9
+11
+23
+Pair c 5
+Pair b 9
+null
+semWait userInput
+input
+assign c
+input
+assign b
+semSignal userInput
+semWait userOutput
+printFromTo c b
+printFromTo c b
+semSignal userOutput

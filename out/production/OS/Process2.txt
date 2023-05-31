@@ -1,0 +1,17 @@
+2
+READY
+3
+26
+37
+null
+null
+null
+semWait userInput
+input
+assign a
+input
+assign b
+semSignal userInput
+semWait file
+writeFile a b
+semSignal file
